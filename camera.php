@@ -1,7 +1,7 @@
 <?php
-$URL = 'http://0.0.0.0:8000/ISAPI/Streaming/channels/501/picture';
+$URL = 'http://77.48.24.241:8003/ISAPI/Streaming/channels/501/picture';
 $username = 'admin';
-$password = 'password';
+$password = 'KNSystems8210';
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $URL);
