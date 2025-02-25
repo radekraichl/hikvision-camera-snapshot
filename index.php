@@ -11,10 +11,7 @@
     <img src="camera.php" alt="Live Camera" id="camera">
 
     <script>
-        // Auto-refresh the camera image every second
-        setInterval(() => {
-            document.getElementById('camera').src = 'camera.php?t=' + new Date().getTime();
-        }, 1000);
+
     </script>
 </body>
 </html>
